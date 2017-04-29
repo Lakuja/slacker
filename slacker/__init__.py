@@ -287,7 +287,8 @@ class Chat(BaseAPI):
                              'unfurl_links': unfurl_links,
                              'unfurl_media': unfurl_media,
                              'icon_url': icon_url,
-                             'icon_emoji': icon_emoji
+                             'icon_emoji': icon_emoji,
+                             'thread_ts': thread_ts
                          })
 
     def me_message(self, channel, text):
